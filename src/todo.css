@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 30px auto;
+    max-width: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.103);
+    border-radius: 10px;
+}
+.input-text{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.input-text input{
+    flex: 10 1;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.37);
+}
+.input-text input:focus{
+    outline: 0;
+}
+.input-text button{
+    flex: 1 1;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.input-text button:hover{
+    background-color: black;
+    color: white;
+}
+.main-box{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.main-box .box{
+    display: flex;
+    gap: 10px;
+}
+.box p{
+    flex: 10;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+.strike{
+    text-decoration: line-through;
+}
+.box .bin{
+    flex: 1;
+    cursor: pointer;
+}
